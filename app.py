@@ -116,5 +116,5 @@ def logout():
 
 if __name__ == '__main__':
     myapp.secret_key = 'mysecret'
-    myapp.run(debug=True)  
+    myapp.run()  
 
