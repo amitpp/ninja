@@ -1,5 +1,7 @@
 # ninja
 
+http://amitpp.pythonanywhere.com/  Here You can see the running instance of my code. 
+
 By Default this application takes the user to a welcome page from where user has option to navigate to login or register page.
 
 After registration, user will be redirected to Login page. After user is logged in, he will be redirected to home page ( a sample page suggesting the same). 
