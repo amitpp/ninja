@@ -1,5 +1,5 @@
 
-A sample web app in Python/Flask/Mysql
+**A sample web app in Python/Flask/Mysql**
 
 
 INTRODUCTION
@@ -17,17 +17,17 @@ If a user who is not registered tries to access home page, he will be redirected
 Purpose: To demonstrate how user details collected through a form can be used to hit Restful endpoints.
 
 
-Hosted on Pythonanywhere :  http://amitpp.pythonanywhere.com/ 
+Hosted on Pythonanywhere : Here is a [link](http://amitpp.pythonanywhere.com/) to this app.
 
 
 Curl commands format to see the working of APIs:
 
 
-1)Curl for signup API:
+*Curl for signup API:
 curl -X POST   http://amitpp.pythonanywhere.com/register -d '{"username":"user123", "password":"pass123","name":"User","email":"user@gmail.com"}' -H 'Content-Type: application/json'
 
 
-2)Curl for login api:
+*Curl for login api:
 curl -X POST   http://amitpp.pythonanywhere.com/login -d '{"username":"user123", "password":"pass123"}' -H 'Content-Type: application/json'
 
 
